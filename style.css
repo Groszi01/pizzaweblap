@@ -1,5 +1,13 @@
-.banner {
-    background-image: url(pizzabanner.jpg);
-    height: 40%;
-    background-size: 100% 100%;
+.header {
+    background-image: url(képek/pizzabannerLG.jpg);
+    height: 100%;
+    width: 100%;
+}
+
+.navjobbresz {
+    float: right;
+}
+
+.navbalresz {
+    float: left;
 }
