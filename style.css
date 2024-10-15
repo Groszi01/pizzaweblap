@@ -1,13 +1,10 @@
 .header {
-    background-image: url(képek/pizzabannerLG.jpg);
+    background-image: url(kepek/pizzabannerLG.jpg);
     height: 100%;
     width: 100%;
+    color: white;
 }
 
-.navjobbresz {
+.navbar {
     float: right;
-}
-
-.navbalresz {
-    float: left;
 }
