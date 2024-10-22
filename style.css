@@ -55,35 +55,56 @@ p {
     padding: 5px;
 }
 
-
 .buttonmenu {
-  align-items: center;
-  background-color: #000000;
-  border: 1px solid #ffffff;
-  box-sizing: border-box;
-  color: #ffffff;
-  cursor: pointer;
-  font-size: 16px;
-  font-weight: 600;
-  height: 48px;
-  justify-content: center;
-  letter-spacing: -.8px;
-  line-height: 24px;
-  min-width: 140px;
-  padding: 0 17px;
-  text-align: center;
-  transition: all .4s;
-  user-select: none;
-  touch-action: manipulation;
+    align-items: center;
+    background-color: #000000;
+    border: 1px solid #ffffff;
+    box-sizing: border-box;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    height: 48px;
+    justify-content: center;
+    letter-spacing: -.8px;
+    line-height: 24px;
+    min-width: 140px;
+    padding: 0 17px;
+    text-align: center;
+    transition: all .4s;
+    user-select: none;
+    touch-action: manipulation;
+    
+  }
   
+  
+  .buttonmenu:hover {
+    border-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+    fill: rgb(255, 255, 255);
+  }
+  
+
+.specialitasok {
+    padding: 5px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 1000px;
+    background-color: #222222;
 }
 
+#specpizzakep1 {
+    height: 550px;
+    width: 700px;
+    float: left;
+}
 
-.buttonmenu:hover {
-  border-color: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
-  background-color: rgb(255, 255, 255);
-  fill: rgb(255, 255, 255);
+#marhapecsenyekep {
+    height: 650px;
+    width: 400px;
+    float: right;
 }
 
 
