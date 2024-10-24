@@ -95,16 +95,32 @@ p {
     background-color: #222222;
 }
 
-#specpizzakep1 {
-    height: 550px;
-    width: 700px;
-    float: left;
+.specpizza1 {
+    position: relative;
+    background-image: url(kepek/pizzabannerLG.jpg);
+    background-position: 200%;
+    height: 500px;
+    width: 800px;
+    margin-left: 30%;
 }
+
+
+.specpizza1 span {
+    right: 10px;
+    top: 10px;
+}
+
 
 #marhapecsenyekep {
     height: 650px;
     width: 400px;
     float: right;
+    margin-right: 12%;
 }
 
+
+#eloetelkep {
+    height: 200px;
+    width: 200px;
+}
 
