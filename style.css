@@ -2,6 +2,10 @@
     font-family: Helvetica;
 }
 
+p {
+    font-size: 20px;
+}
+
 
 .header {
     background-image: url(kepek/pizzabannerLG.jpg);
@@ -40,11 +44,15 @@ p {
 .ftbalresz {
     float: left;
     text-align: right;
+    margin-left: 15%;
 }
 
 .ftjobbresz {
     margin-top: auto;
-    text-align: right;
+    text-align: left;
+    margin-left: 40%;
+    margin-right: 10%;
+    letter-spacing: 1px;
 }
 
 .menu {
@@ -53,6 +61,11 @@ p {
     align-items: center;
     text-align: center;
     padding: 5px;
+}
+
+#menuszoveg {
+    margin-right: 15%;
+    margin-left: 15%;
 }
 
 .buttonmenu {
