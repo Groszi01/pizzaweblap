@@ -24,7 +24,16 @@ h1, h2, h3 {
 
 .navbar {
     float: right;
-    padding: 20px;
+    padding: 1px;
+    margin-top: -25%;
+    margin-right: -25%;
+}
+
+.navszoveg {
+    float: left;
+    padding: 1px;
+    margin-top: -25%;
+    margin-left: -25%;
 }
 
 .szovegek {
