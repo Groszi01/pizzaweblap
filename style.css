@@ -94,14 +94,14 @@ p {
     height: 48px;
     justify-content: center;
     letter-spacing: -.8px;
-    line-height: 24px;
+    line-height: 30px;
     min-width: 140px;
     padding: 0 17px;
     text-align: center;
     transition: all .4s;
     user-select: none;
     touch-action: manipulation;
-    
+    margin: 10px;
   }
   
   
@@ -199,12 +199,13 @@ p {
     width: 25%;
     height: 5%;
     margin-left: 40%;
+    max-width: 30%;
     top: 0;
 }
 
 .footerjobb {
     float: right;
-    text-align: right;
+    text-align: left;
     margin-right: 1%;
     width: 25%;
     top: 50%;
