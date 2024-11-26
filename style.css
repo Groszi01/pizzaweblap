@@ -7,9 +7,9 @@ p {
 }
 
 body {
-    width: 100%;
-    height: 100%;
+    margin: 0;
 }
+
 
 
 .header {
@@ -17,10 +17,10 @@ body {
     height: 100%;
     padding: 200px;
     background-position: 100%;
-    width: 50rm;
     margin: auto;
     align-items: center;
     color: white;
+    position: relative;
 }
 
 h1, h2, h3 {
@@ -225,4 +225,18 @@ p {
 	flex-flow: column wrap;
     padding-right: 3px; 
     padding-top: 3px;
+}
+
+
+@media only screen and (max-width: 600px) { /*tablet*/
+    
+
+}
+
+@media only screen and (max-width: 300px) { /*mobil*/
+   
+    .nav-mobil {
+        display: block;
+    }
+   
 }
