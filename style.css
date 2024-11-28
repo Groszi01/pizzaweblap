@@ -45,6 +45,18 @@ h1, h2, h3 {
     padding: 10px;
 }
 
+.hamburger {
+    display: none;
+}
+
+.nav-mobile {
+    display: none;
+}
+
+.header a {
+    display: none;
+}
+
 p {
     color: #8c8c8c;
 }
@@ -233,10 +245,49 @@ p {
 
 }
 
-@media only screen and (max-width: 300px) { /*mobil*/
+@media only screen and (max-width: 400px) { /*mobil*/
    
-    .nav-mobil {
-        display: block;
+    .navbar {
+        display: none;
     }
    
+  /*mobilnav*/
+
+  .hamburger {
+    padding: 1.5rem 2rem;
+    color: #fff;
+    display: block;
+  }
+  
+  .checkbtn{
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer;
+    display: block;
+  }
+  
+  #check{
+    display: none;
+  }
+  
+#check:checked ~ .nav-mobile{display: block;}
+#check:checked ~ .header a{display: block;}
+  
+  .nav-mobile {
+    display: none;
+    position: absolute;
+    top: 4.5rem;
+    left: 0;
+    overflow: hidden;
+    background: #222831;
+    z-index: 1;
+    width: 200px;
+  }
+  
+  .nav-mobile a {
+    color: #fff;
+    padding: 1rem 1.5rem;
+    display: none;
+  }
+
 }
