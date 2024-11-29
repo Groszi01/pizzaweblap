@@ -233,10 +233,32 @@ p {
 
 }
 
-@media only screen and (max-width: 300px) { /*mobil*/
+@media only screen and (max-width: 500px) { /*mobil*/
    
+    .navbar {
+        display: none;
+    }
     .nav-mobil {
         display: block;
     }
-   
+    p {
+        font-size: 10px;
+    }
+    .header {
+        padding: 100px;
+    }
+    h1 {
+        font-size: 20px;
+    }
+    h3 {
+        font-size: 15px;
+    }
+    .buttonmenu {
+        height:  30px;
+        width: 40px;
+    }
+    .specialitasok {
+        height: 600px;
+    }
+    
 }
