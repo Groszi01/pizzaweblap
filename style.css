@@ -230,7 +230,10 @@ p {
 
 @media only screen and (max-width: 600px) { /*tablet*/
     
-
+    .gallery {
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(8, 5vw);
+    }
 }
 
 @media only screen and (max-width: 500px) { /*mobil*/
@@ -255,10 +258,46 @@ p {
     }
     .buttonmenu {
         height:  30px;
-        width: px;
+        width: 1px;
     }
     .specialitasok {
         height: 600px;
     }
+    .galeria {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(5, 5vw);
+        grid-gap: 10px;
+    }
+
+    .gallery__img {
+        width: 90%;
+        height: 80%;
+        object-fit: cover;
+    }
+    
+    .footer {
+        height: 700px;
+    }
+    .footerbal {
+        width: 100%;
+        text-align: center;
+    }
+    .footerkozep {
+        width: 100%;
+        text-align: center;
+    }
+    .footerjobb {
+        width: 100%;
+        text-align: center;
+    }
+    .footeralso {
+        margin-top: 100%;
+    }
+
+
+
+
+    
+
     
 }
