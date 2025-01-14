@@ -319,3 +319,119 @@ p {
         float: left;
     }
 }
+
+@media only screen and (max-width: 480px) {
+    .header {
+        padding: 50px;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .navszoveg {
+        display: none;
+    }
+
+    .ftbalresz {
+        margin-left: 5%;
+    }
+
+    .ftjobbresz {
+        margin-left: 20%;
+        margin-right: 5%;
+    }
+
+    .menu {
+        height: 600px;
+    }
+
+    .specialitasok {
+        height: 2500px;
+    }
+
+    .footer {
+        height: 2000px;
+    }
+
+    .footerbal {
+        margin-left: 2%;
+    }
+
+    .footerkozep {
+        margin-left: 10%;
+    }
+
+    .footerjobb {
+        margin-right: 5%;
+    }
+
+    .footeralso {
+        margin-top: 150%;
+    }
+
+    .gallery__item--1 span {
+        padding-right: 2px; 
+        padding-top: 2px;
+    }
+
+    p {
+        font-size: 10px;
+    }
+    
+    h2 {
+        font-size: 16px;
+        padding: 3px;
+    }
+
+    h3 {
+        font-size: 12px;
+        padding: 3px;
+        text-align: right;
+    }
+}
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: rgb(182, 32, 228) rgb(90, 90, 95) ;
+    animation: colorChange 5s infinite;
+  }
+  
+  *::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  *::-webkit-scrollbar-track {
+    background: rgb(182, 32, 228);
+
+  }
+  
+  *::-webkit-scrollbar-thumb {
+    background-color: rgb(90, 90, 95);
+    border-radius: 20px;
+    border: 3px solid rgb(182, 32, 228);
+  }
+
+
+@keyframes colorChange {
+    0% {
+        scrollbar-width: thin;
+        scrollbar-color: rgb(182, 32, 228) rgb(90, 90, 95) ;
+    }
+    25% {
+        scrollbar-width: thin;
+        scrollbar-color: rgb(50, 160, 211) rgb(90, 90, 95) ;;
+    }
+    50% {
+        scrollbar-width: thin;
+        scrollbar-color: rgb(118, 226, 68) rgb(90, 90, 95) ;;
+    }
+    75% {
+        scrollbar-width: thin;
+        scrollbar-color: rgb(228, 32, 195) rgb(90, 90, 95) ;;
+    }
+    100% {
+        scrollbar-width: thin;
+        scrollbar-color: rgb(182, 32, 228) rgb(90, 90, 95) ;
+    }
+}
